@@ -23,3 +23,5 @@ swagger:
   redirect-uri: / # 禁用swagger时的重定向地址
 project:
   version: 1.0
+logging:
+  config: classpath:local-sql.xml
